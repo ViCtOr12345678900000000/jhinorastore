@@ -2,7 +2,7 @@
 <body id="background-change">
     <h1 class="welcome-text">Welcome!</h1>
     <div class="enter">
-        <form action="welcome.html" target="_blank">
+        <form action="jhinora" target="_blank">
         <button type="submit" >Enter</button>
         </form>
     </div>

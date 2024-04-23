@@ -25,7 +25,7 @@
     <div id="smallcontainer2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmkRpBMHTcaaEDKePisjh3aYnbaTPxi7fSA&usqp=CAU"></div>
 </div>
 
-<div class="navbar">
+<div id="navbar">
 <span onclick="openNav()" style="font-size: 50px;">&equiv;</span>
 <p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
 </div>
@@ -42,7 +42,10 @@
       <p class="reveal-text" data-threshold="0.5">We are a full service agency dedicated to elevating <i>luxury travel and lifestyle</i> brands theough powerful strategy brand identity and digital prescence</p>
  </div>
   <div id="box3">
-
+    <p class="reveal-text" data-threshold="0.6">Our difference?
+A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of what it takes to thrive here.</p><br/>
+<p class="reveal-text" data-threshold="0.7">
+<a href="" style="color: black;">LEARN MORE</a>
  </div>
   <div id="box4">
 
@@ -55,7 +58,7 @@
 <style>
     @media (width >= 700px){
         
-    .navbar{
+    #navbar{
         display: flex;
         background-color: white;
     }
@@ -90,18 +93,26 @@ background-repeat: no-repeat;
     background-color: white;
     padding-top: 30vh;
     font-size: 20px;
+    text-align:  center ;
     font-family:"Poiret One", sans-serif;
   }
     #box3{
-    width: 50vw;
-    height: 100vh;
-    background-color: hotpink;
-  }
-      #box4{
-    width: 50vw;
-    height: 100vh;
-    background-color: orangered;
-  }
+     width: 50vw;
+     height: 70vh;
+     background-color: white;
+     padding-top: 30vh;
+     font-size: 20px;
+     text-align: center;
+     font-family: "Poiret One", sans-serif;
+   }
+   #box4 {
+  width: 50vw;
+  height: 100vh;
+  background-image: url("https://static.wixstatic.com/media/b2ee2c_863ed37afc5c4f7f88b23e810dc1c5b3~mv2.png/v1/fill/w_780,h_812,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202024-02-20%20at%2013_03_11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
     #whitespace1{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -145,12 +156,12 @@ background-repeat: no-repeat;
     }
     #header-name1{
         position: absolute;
-        margin-left: 3vw;
+        margin-left: 12vw;
         transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
         font-family: "Poiret One", sans-serif;
         color: black;
         font-weight: 100;
-        scale: ;
+        scale: 1.5;
         
     }
     #sub-name{
@@ -242,13 +253,18 @@ height:50vh;
 height: 30vh;
 background-color: white;
 padding-top: 10vh;
-font-size: 50px;
+font-size: 60px;
+text-align: center;   
 font-family:"Poiret One", sans-serif; 
   }
-    #box3{
+     #box3{
     width: 100vw;
-    height: 50vh;
-    background-color: hotpink;
+    height: 30vh;
+    background-color: beige;
+    padding-top: 10vh;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
   }
       #box4{
     width: 100vw;
@@ -294,3 +310,32 @@ revealTexts.forEach(text => {
 });
 
 </script>
+
+
+<script>
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() { myFunction() };
+
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+<style>
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 5vh;
+}
+</style> 

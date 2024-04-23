@@ -45,12 +45,32 @@
     <p class="reveal-text" data-threshold="0.6">Our difference?
 A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of what it takes to thrive here.</p>
 <p class="reveal-text" data-threshold="0.7">
-<a href="" style="color: black;">LEARN MORE</a>
+<a href="" style="color: black; position: absolute; text-decoration: none; margin-left: -12vw;">LEARN MORE</a></p>
  </div>
   <div id="box4">
 
  </div>
 </div>
+
+
+<div class="midbox">
+  <p id="service">OUR SERVICES</p>
+  <div class="inside">
+    
+    <div class="reveal-text" data-threshold="0.9">01.<p id="01" style="width: 10px;"> Brand strategy & copywriting</p>
+    </div>
+     <div class="reveal-text" data-threshold="0.9">02.<p id="02" style="width: 10px;" >  Brand identity, & graphic design </p>
+ </div>
+  <div class="reveal-text" data-threshold="0.9">03.<p id="03" style="width: 10px;">  Website, design, & development </p>
+ </div>
+  <div class="reveal-text" data-threshold="0.9">04.<p id="04" style="width: 10px;">  Photography & video service </p>
+ </div>
+    
+  </div>
+  <p class="reveal-text" data-threshold="0.10" style="font-size: 30px; margin-top: 10vh;" >
+<a href="" style="color: black; position: absolute; text-decoration: none; margin-left: -12vw;">VIEW OUR SERVICES</a></p>
+</div>
+
 
 
 
@@ -62,6 +82,44 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
         display: flex;
         background-color: white;
     }
+    .midbox{
+      width:100vw;
+      height:230vh;
+      background-color:white;  
+      margin-top: 0vh;
+      text-align:  center; 
+      font-family:  "Poiret One", sans-serif;
+    }
+    #service{
+      padding-top: 100vh;
+      font-size: 30px;
+      font-family:"Poiret One", sans-serif;
+      
+    }
+    .inside{
+      display: flex;
+      flex-wrap: wrap;
+      text-align:  left; 
+      padding-inline: px;
+      justify-content: space-around;
+      font-size:20px ;
+      padding-top: 5vh;
+      margin-left: -20px;
+      font-family: "Cormorant Garamond", serif;
+      
+    }
+    a:after {
+  content: "";
+  display: block;
+  width: 100%;  /* Adjust width as needed */
+  height: 1px;
+  background-color: black; /* Change color as desired */
+  position: absolute; /* Overlap the link */
+  bottom: -2px; /* Adjust spacing as needed */
+  left: 0; 
+}
+
+    
     span{
         margin-left: 95vw;
     }
@@ -192,6 +250,49 @@ background-repeat: no-repeat;
         background-color: white;
         
     }
+    .midbox{
+      width:100vw;
+      height:50vh;
+      background-color:white;  
+      margin-top: 120vh;
+      text-align:  center; 
+    }
+        #service {
+      padding-top: 10vh;
+      font-size: 40px;
+      font-family: "Poiret One", sans-serif;
+      
+
+    }
+      .inside {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: left;
+     padding-inline: px;
+     justify-content: space-around;
+     font-size: 20px;
+     padding-top: 5vh;
+     font-family: "Cormorant Garamond", serif;
+
+
+   }
+   a:after {
+  content: "";
+  display: block;
+  width: 100%;  /* Adjust width as needed */
+  height: 1px;
+  background-color: black; /* Change color as desired */
+  position: absolute; /* Overlap the link */
+  bottom: -2px; /* Adjust spacing as needed */
+  left: 0; 
+}
+
+
+   #downlink{
+     font-family : "Poiret One", sans-serif;
+        color: black;
+        scale: 1.5;
+   }
     .whitespace{
         background-color: white;
         text-align: center;
@@ -338,4 +439,4 @@ revealTexts.forEach(text => {
   width: 100vw;
   height: 5vh;
 }
-</style> 
+</style>

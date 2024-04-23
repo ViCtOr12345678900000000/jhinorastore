@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rajdhani:wght@300;400;500;600;700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<div id="first-container">
+    <p><h1 id="header-name">JHINORA STUDIOS</h1></p>
+    <p><h5 id="sub-name">STRATEGY & CREATIVITY</h5></p><
+    <p><h4 id="sub-name1">for tomorrow iconic lifestyle travel </h5></p>
+    <div id="smallcontainer1"><img src="https://joy.imgix.net/a/BkoE-460f?fit=crop&w=750&h=1275&auto=compress&s=e2f38c9b6a4cb0640f00246b4e7d5259"></div>
+    <div id="smallcontainer2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmkRpBMHTcaaEDKePisjh3aYnbaTPxi7fSA&usqp=CAU"></div>
+</div>
+
+<div class="navbar">
+<span onclick="openNav()" style="font-size: 50px;">&equiv;</span>
+<p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
+</div>
+
+<div class="whitespace">
+    <p id="whitespace1">AT JHINORA WE BUILD INFLUENTIAL BRANDS</p>
+    <p id="whitespace2">that are <i>difficult</i> to ignore</p>
+</div>
+
+
+
+
+
+<style>
+    @media (width >= 700px){
+        
+    .navbar{
+        display: flex;
+        background-color: white;
+    }
+    span{
+        margin-left: 95vw;
+    }
+    .whitespace{
+        background-color: white;
+        text-align: center;
+        align-content: center;   
+        height: 50vh; 
+    }
+    #whitespace1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #whitespace2{
+        font-size: 20px;
+        font-family:"Pacifico", cursive;
+    }
+    #first-container{
+        height: 100vh;
+        width:auto;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    img{
+        height: 100vh;
+        width: 50vw;
+        
+        object-fit: cover;
+        
+    }
+    #smallcontainer1{
+        
+        width: 50%;
+       
+    }
+    #smallcontainer2{
+        
+        width: 50%;
+        
+        
+    }
+    #header-name{
+        position: absolute;
+        margin-left: 40vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: white;
+        font-weight: 100;
+        scale: 2 1 ;
+        margin-top: 10vh;
+    }
+    #header-name1{
+        position: absolute;
+        margin-left: 3vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: black;
+        font-weight: 100;
+        scale: ;
+        
+    }
+    #sub-name{
+        position: absolute;
+        margin-top: 45vh;
+        color: white;
+        font-size: 30px;
+        margin-left: 30vw;
+        font-weight: 100;
+        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    }
+    #sub-name1{
+        position: absolute;
+        margin-top: 55vh;
+        color: white;
+        font-size: 70px;
+        margin-left: 30vw;
+        font-weight: 400;
+        font-family: "Tangerine", cursive;
+    }
+}
+</style>
+<style>
+    @media screen and (orientation:portrait){
+
+        .navbar{
+        display: flex;
+        background-color: white;
+        
+    }
+    .whitespace{
+        background-color: white;
+        text-align: center;
+        align-content: center;   
+        height: 30vh; 
+    }
+    span{
+        margin-left: 95vw;
+    }
+        #sub-name{
+        position: absolute;
+        margin-top: 75vh;
+        color: white;
+        font-size: 40px;
+        margin-left: 27vw;
+        font-weight: 100;
+        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    }
+    #sub-name1{
+        position: absolute;
+        margin-top:80vh;
+        color: white;
+        font-size: 70px;
+        margin-left: 30vw;
+        font-weight: 400;
+        font-family: "Tangerine", cursive;
+    }
+    
+    #header-name{
+        position: absolute;
+        margin-left: 40vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: white;
+        font-weight: 100;
+        scale: 2.5 2 ;
+        margin-top: 5vh;
+    }
+
+    }
+</style>

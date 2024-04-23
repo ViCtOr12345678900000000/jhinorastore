@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,8 +19,8 @@
 
 <div id="first-container">
     <p><h1 id="header-name">JHINORA STUDIOS</h1></p>
-    <p><h5 id="sub-name">STRATEGY & CREATIVITY</h5></p>
-    <p><h4 id="sub-name1">for tomorrow iconic lifestyle travel </h5></p>
+    <p><h5 id="sub-name" class="reveal-text" data-threshold="0.1" >STRATEGY & CREATIVITY</h5></p>
+    <p><h4 id="sub-name1" class="reveal-text" data-threshold="0.2">for tomorrow iconic lifestyle travel </h5></p>
     <div id="smallcontainer1"><img src="https://joy.imgix.net/a/BkoE-460f?fit=crop&w=750&h=1275&auto=compress&s=e2f38c9b6a4cb0640f00246b4e7d5259"></div>
     <div id="smallcontainer2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmkRpBMHTcaaEDKePisjh3aYnbaTPxi7fSA&usqp=CAU"></div>
 </div>
@@ -26,16 +30,16 @@
 <p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
 </div>
 
-<div class="whitespace">
+<div class="whitespace" >
     
-    <p id="whitespace1">AT JHINORA WE BUILD INFLUENTIAL BRANDS</p>
-    <p id="whitespace1">that are <i>difficult</i> to ignore</p>
+    <p id="whitespace1" class="reveal-text" data-threshold="0.3">AT JHINORA WE BUILD INFLUENTIAL BRANDS</p>
+    <p id="whitespace1" class="reveal-text" data-threshold="0.4">that are <i>difficult</i> to ignore</p>
 </div>
 
 <div id="box">
   <div id="box1"></div>
    <div id="box2">
-      <p>We are a full service agency dedicated to elevating <i>luxury travel and lifestyle</i> brands theough powerful strategy brand identity and digital prescence</p>
+      <p class="reveal-text" data-threshold="0.5">We are a full service agency dedicated to elevating <i>luxury travel and lifestyle</i> brands theough powerful strategy brand identity and digital prescence</p>
  </div>
   <div id="box3">
 
@@ -136,7 +140,7 @@ background-repeat: no-repeat;
         font-family: "Poiret One", sans-serif;
         color: white;
         font-weight: 100;
-        scale: 2 1 ;
+        scale: 2 2 ;
         margin-top: 10vh;
     }
     #header-name1{
@@ -216,8 +220,9 @@ background-repeat: no-repeat;
         transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
         font-family: "Poiret One", sans-serif;
         color: white;
-        font-weight: 100;
-        scale: 2.5 2 ;
+        font-weight: 00;
+        font-family: "Aboreto", system-ui;
+        scale: 2 2 ;
         margin-top: 5vh;
     }
     
@@ -253,3 +258,39 @@ font-family:"Poiret One", sans-serif;
 
     }
 </style>
+
+
+
+<!--  this is for revealing text -->   
+
+<style>
+.reveal-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.reveal-text.in-view {
+  opacity: 1;
+}
+</style>
+<script>
+  const revealTexts = document.querySelectorAll('.reveal-text');
+
+revealTexts.forEach(text => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        text.classList.add('in-view');
+      } else {
+        text.classList.remove('in-view');
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '0px 0px 100px 0px', // Adjust margin for reveal distance
+    threshold: parseFloat(text.dataset.threshold) || 0.1 // Use data-threshold attribute or default
+  });
+  observer.observe(text);
+});
+
+</script>

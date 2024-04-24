@@ -25,7 +25,7 @@
     <div id="smallcontainer2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmkRpBMHTcaaEDKePisjh3aYnbaTPxi7fSA&usqp=CAU"></div>
 </div>
 
-<div id="navbar">
+<div id="navbar" class="sticky2">
 <span onclick="openNav()" style="font-size: 50px;">&equiv;</span>
 <p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
 </div>
@@ -71,16 +71,72 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
 <a href="" style="color: black; position: absolute; text-decoration: none; margin-left: -12vw;">VIEW OUR SERVICES</a></p>
 </div>
 
+<div id="navbar1" class="sticky1">
+    <p class="work"><a href="" style="color: black; position: absolute; text-decoration: none; margin-left:80vw; ">OUR WORK</a></p>
+    <p><h1 id="header-name2">Featured Project</h1></p>
+</div>
 
+<div class="general">
+    <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_50c2088e00ed4d7780da23b14c80e58d~mv2.jpg/v1/fill/w_1452,h_560,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_OneBellot_2500x1667.jpg" alt="one bellot aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 50% 81%; width: 100%;">
+    <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_de2512121a1b41cfb6a9af43ea8210ca~mv2.jpg/v1/fill/w_1452,h_510,fp_0.49_0.75,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_Sevven_2500x1667.jpg" alt="sevven travel aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 49% 75%; width: 100%;">
+    <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_7c0d2eab00d64d4c9f333fa5c0503b58~mv2.jpg/v1/fill/w_1452,h_476,fp_0.50_0.25,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8573%202_JPG.jpg" alt="rude swim aūra studios" style="object-fit: cover; object-position: 50% 25%; width: 100%;" fetchpriority="high">
+</div>
 
 
 
 <style>
     @media (width >= 700px){
-        
+      
+        #navbar1{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 20vh;
+}
+.general{
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  height: 50vh;
+  /* Adjust height as needed */
+}
+.sticky1 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 50vh;
+  /* Adjust height as needed */
+}
+.sticky2 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  /* Adjust height as needed */
+}
+    
+#header-name2{
+position: absolute;
+    margin-left: 12vw;
+    transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+    font-family: "Poiret One", sans-serif;
+    color: black;
+    font-weight: 100;
+    scale: 1.5;
+    
+    
+}
+
+
     #navbar{
         display: flex;
         background-color: white;
+        height: 15vh;
+        z-index: 1;
     }
     .midbox{
       width:100vw;
@@ -245,11 +301,19 @@ background-repeat: no-repeat;
 <style>
     @media screen and (orientation:portrait){
 
-        .navbar{
+        #navbar{
         display: flex;
         background-color: white;
+        height: 5vh;
+        z-index: 1;
         
     }
+    #navbar1{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 5vh;
+}
     .midbox{
       width:100vw;
       height:50vh;
@@ -411,32 +475,3 @@ revealTexts.forEach(text => {
 });
 
 </script>
-
-
-<script>
-  // When the user scrolls the page, execute myFunction
-  window.onscroll = function() { myFunction() };
-
-  // Get the navbar
-  var navbar = document.getElementById("navbar");
-
-  // Get the offset position of the navbar
-  var sticky = navbar.offsetTop;
-
-  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-</script>
-<style>
-  .sticky {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 5vh;
-}
-</style>

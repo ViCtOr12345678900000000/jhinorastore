@@ -72,21 +72,58 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
 </div>
 
 <div id="navbar1" class="sticky1">
-    <p class="work"><a href="" style="color: black; position: absolute; text-decoration: none; margin-left:80vw; ">OUR WORK</a></p>
+    <p class="work"><a href="" style="color: black; position: absolute; text-decoration: none; margin-left:80vw; margin-top: 25px; ">OUR WORK</a></p>
     <p><h1 id="header-name2">Featured Project</h1></p>
 </div>
 
 <div class="general">
-    <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_50c2088e00ed4d7780da23b14c80e58d~mv2.jpg/v1/fill/w_1452,h_560,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_OneBellot_2500x1667.jpg" alt="one bellot aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 50% 81%; width: 100%;">
+  <div id="text1"  class="sticky">
+    <p style="font-size: 60px; top: 40px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
+    <img src="https://static.wixstatic.com/media/b2ee2c_50c2088e00ed4d7780da23b14c80e58d~mv2.jpg/v1/fill/w_1452,h_560,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_OneBellot_2500x1667.jpg" alt="one bellot aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 50% 81%; width: 100%;">
+  </div>
+  <div id="text1"  class="sticky">
+    <p style="font-size: 60px; top: 350px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
     <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_de2512121a1b41cfb6a9af43ea8210ca~mv2.jpg/v1/fill/w_1452,h_510,fp_0.49_0.75,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_Sevven_2500x1667.jpg" alt="sevven travel aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 49% 75%; width: 100%;">
+  </div>
+  <div id="text1" class="sticky">
+    <p style="font-size: 60px; top: 700px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
     <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_7c0d2eab00d64d4c9f333fa5c0503b58~mv2.jpg/v1/fill/w_1452,h_476,fp_0.50_0.25,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8573%202_JPG.jpg" alt="rude swim aūra studios" style="object-fit: cover; object-position: 50% 25%; width: 100%;" fetchpriority="high">
+  </div>
 </div>
 
+
+<div class="last-con">
+  <div id="lasttext" class="reveal-text" data-threshold="0.11">
+    <p><h3>"Working with Chira and her team at Jhinora has been nothing short of <i>Transformational for my business</i>.
+    Having spent decades building my clientele and oresence with great intention. I was cautious about whom i partnered with to further develop my brand. 
+  They have <i>Extaordinary experience in luxury, travel</i> and crafting products for the audience</h3></p>
+  <p id="last-text">JHINORA</p>
+  <p id="last-text">Founder</p>
+  </div>
+</div>
 
 
 <style>
     @media (width >= 700px){
-      
+      .last-con{
+        background-color: darkolivegreen;
+        color: white;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+      }
+      #lasttext{
+        padding-top: 30vh;
+        width: 50vw;
+        padding-left: 23vw;
+        font-family: "Tangerine", cursive;
+        font-size: 30px;
+      }
+#last-text{
+  font-family:"Poiret One", sans-serif ;
+}
+
         #navbar1{
     display: flex;
     background-color: white;
@@ -300,7 +337,24 @@ background-repeat: no-repeat;
 </style>
 <style>
     @media screen and (orientation:portrait){
-
+      .last-con{
+        background-color: darkolivegreen;
+        color: white;
+        text-align: center;
+        width: 100vw;
+        height: 70vh;
+        position: absolute;
+      }
+      #lasttext{
+        padding-top: 15vh;
+        width: 50vw;
+        padding-left: 25vw;
+        font-family: "Tangerine", cursive;
+        font-size: 40px;
+      }
+#last-text{
+  font-family:"Poiret One", sans-serif ;
+}
         #navbar{
         display: flex;
         background-color: white;
@@ -474,4 +528,3 @@ revealTexts.forEach(text => {
   observer.observe(text);
 });
 
-</script>

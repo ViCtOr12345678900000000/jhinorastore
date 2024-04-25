@@ -2,6 +2,10 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +49,7 @@
     <p class="reveal-text" data-threshold="0.6">Our difference?
 A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of what it takes to thrive here.</p>
 <p class="reveal-text" data-threshold="0.7">
-<a href="" style="color: lightpink; position: absolute; text-decoration: none; margin-left: -15vw;">LEARN MORE</a></p>
+<a href="" id="learnmore">LEARN MORE</a></p>
  </div>
   <div id="box4">
 
@@ -68,7 +72,7 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
     
   </div>
   <p class="reveal-text" data-threshold="0.10" style="font-size: 30px; margin-top: 10vh;" >
-<a href="" style="color: lightpink; position: absolute; text-decoration: none; margin-left: -12vw;">VIEW OUR SERVICES</a></p>
+<a href="" style=" font-family: Instrument Serif, serif; color: lightpink; position: absolute; text-decoration: none; margin-left: -8vw;">VIEW OUR SERVICES</a></p>
 </div>
 
 <div id="navbar1" class="sticky1">
@@ -78,15 +82,15 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
 
 <div class="general">
   <div id="text1"  class="sticky">
-    <p style="font-size: 60px; top: 40px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
-    <img src="https://static.wixstatic.com/media/b2ee2c_50c2088e00ed4d7780da23b14c80e58d~mv2.jpg/v1/fill/w_1452,h_560,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_OneBellot_2500x1667.jpg" alt="one bellot aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 50% 81%; width: 80vw; margin-left: 100px;">
+    <p id="word1"><i>ONBOARD</i></p>
+    <img style="height: 50vh; width: 70vw; margin-left: 150px;" src="https://static.wixstatic.com/media/b2ee2c_50c2088e00ed4d7780da23b14c80e58d~mv2.jpg/v1/fill/w_1452,h_560,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_OneBellot_2500x1667.jpg" alt="one bellot aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 50% 81%; width: 80vw; margin-left: 100px;">
   </div>
   <div id="text1"  class="sticky">
-    <p style="font-size: 60px; top: 350px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
-    <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_de2512121a1b41cfb6a9af43ea8210ca~mv2.jpg/v1/fill/w_1452,h_510,fp_0.49_0.75,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_Sevven_2500x1667.jpg" alt="sevven travel aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 49% 75%; width: 80vw; margin-left: 100px;">
+    <p id="word2" ><i>ONBOARD</i></p>
+    <img style="width: 75vw; margin-left: 120px;" class="sticky" src="https://static.wixstatic.com/media/b2ee2c_de2512121a1b41cfb6a9af43ea8210ca~mv2.jpg/v1/fill/w_1452,h_510,fp_0.49_0.75,q_85,usm_0.66_1.00_0.01,enc_auto/Featured_Sevven_2500x1667.jpg" alt="sevven travel aūra studios" fetchpriority="high" style="object-fit: cover; object-position: 49% 75%; width: 80vw; margin-left: 100px;">
   </div>
   <div id="text1" class="sticky">
-    <p style="font-size: 60px; top: 700px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;">ONBOARD</p>
+    <p id="word3" ><i>ONBOARD</i></p>
     <img class="sticky" src="https://static.wixstatic.com/media/b2ee2c_7c0d2eab00d64d4c9f333fa5c0503b58~mv2.jpg/v1/fill/w_1452,h_476,fp_0.50_0.25,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_8573%202_JPG.jpg" alt="rude swim aūra studios" style="object-fit: cover; object-position: 50% 25%; width: 80vw; margin-left: 100px;" fetchpriority="high">
   </div>
 </div>
@@ -105,6 +109,18 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
 
 <style>
     @media (width >= 700px){
+#word1{
+  font-size: 60px; top: 40px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word2{
+  font-size: 60px; top: 70px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word3{
+  font-size: 60px; top: 100px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+      #learnmore{
+        color: lightpink; position: absolute; text-decoration: none; margin-left: -6vw;
+      }
       .last-con{
         background-color: white;
         color: white;
@@ -119,6 +135,7 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
         padding-left: 23vw;
         font-family: "Tangerine", cursive;
         font-size: 30px;
+        color: black;
       }
 #last-text{
   font-family:"Poiret One", sans-serif ;
@@ -138,6 +155,7 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
   top: 100px;
   width: 100%;
   height: 50vh;
+  margin-top: 70px;
   /* Adjust height as needed */
 }
 .sticky1 {
@@ -160,10 +178,11 @@ A pure focus on the luxury lifestyle space and a <i>unique understanding </i>of 
 position: absolute;
     margin-left: 12vw;
     transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
-    font-family: "Poiret One", sans-serif;
-    color: deeppink;
+    font-family: "Instrument Serif", serif;
+    color: black;
     font-weight: 100;
     scale: 1.5;
+    font-style: italic;
     
     
 }
@@ -186,7 +205,7 @@ position: absolute;
     #service{
       padding-top: 100vh;
       font-size: 30px;
-      font-family:"Poiret One", sans-serif;
+      font-family:"Instrument Serif", serif;
       
     }
     .inside{
@@ -245,7 +264,7 @@ background-repeat: no-repeat;
     padding-top: 30vh;
     font-size: 20px;
     text-align:  center ;
-    font-family:"Poiret One", sans-serif;
+    font-family:"Instrument Serif", serif;
   }
     #box3{
      width: 50vw;
@@ -254,7 +273,7 @@ background-repeat: no-repeat;
      padding-top: 30vh;
      font-size: 20px;
      text-align: center;
-     font-family: "Poiret One", sans-serif;
+     font-family: "Instrument Serif", serif;
    }
    #box4 {
   width: 50vw;
@@ -265,7 +284,7 @@ background-repeat: no-repeat;
 
 }
     #whitespace1{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: "Instrument Serif", serif;
         font-size: 30px;
     }
     #whitespace2{
@@ -338,6 +357,19 @@ background-repeat: no-repeat;
 </style>
 <style>
     @media screen and (orientation:portrait){
+      #word1{
+  font-size: 60px; top: 170px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word2{
+  font-size: 60px; top: 350px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word3{
+  font-size: 60px; top: 550px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+
+      #learnmore{
+        color: lightpink; position: absolute; text-decoration: none; margin-left: -15vw;
+      }
       .last-con{
         background-color: white;
         color: black;
@@ -379,7 +411,7 @@ background-repeat: no-repeat;
         #service {
       padding-top: 10vh;
       font-size: 40px;
-      font-family: "Poiret One", sans-serif;
+      font-family: "Instrument Serif", serif;
       
 
     }
@@ -475,7 +507,7 @@ background-color: white;
 padding-top: 10vh;
 font-size: 60px;
 text-align: center;   
-font-family:"Poiret One", sans-serif; 
+font-family:"Instrument Serif", serif; 
   }
      #box3{
     width: 100vw;
@@ -484,7 +516,7 @@ font-family:"Poiret One", sans-serif;
     padding-top: 10vh;
     font-size: 60px;
     text-align: center;
-    font-family: "Poiret One", sans-serif;
+    font-family: "Instrument Serif", serif;
   }
       #box4{
     width: 100vw;

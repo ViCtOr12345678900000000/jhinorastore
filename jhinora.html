@@ -1,4 +1,4 @@
-<head>
+<<head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -29,9 +29,120 @@
 </div>
 
 <div id="navbar" class="sticky2">
+  <div id="mysidenav" class="sidenav">
+    <div id="close" class="closebtn" onclick="closeNav()">&times;</a><br/></div>
+    
+    <div class=" video">
+      <video  controls autoplay loop>
+  <source src="https://www.vecteezy.com/video/2737220-young-asian-woman-enjoying-outdoor-swimming-pool" type="video/mp4">
+  <source src="your_video.webm" type="video/webm">
+  
+</video>
+
+    </div>
+    
+   <div class="sde">
+    <a href="">Work</a>
+    <a href="">Service</a>
+    <a href="">Contact</a>
+   </div>
+   <div class="mail">
+     <a href="mailto:vardevictor78@gmail.com">VARDEVICTOR78@GMAIL.COM</a>
+   </div>
+</div>
 <span onclick="openNav()" style="font-size: 50px;">&equiv;</span>
 <p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
 </div>
+<style>
+video{
+  width:30vw;
+  height:20vh;
+  padding-top: 20vh;
+}
+  #close{
+    margin-left: 50vw; margin-top: 10px; font-size: 30px;
+  }
+  .sidebar.closebtn{
+        position: absolute;
+        padding-top: 10vh;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50%;
+    }
+    .closebtn{
+      font-size: 70px;
+      padding-left: 50vw;
+    }
+    .sde{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 20vh;
+      font-family: "Instrument Serif", serif;
+      font-style: italic;
+      width:100vw;
+    }
+    .sde a{
+      text-decoration: none;
+      justify-content: space-between;
+      color: black;
+
+    }
+    .mail{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 30vh;
+      font-family:"Instrument Serif", serif;
+      scale: 0.7 0.5;
+    }
+    .mail a{
+      text-decoration: none;
+      color: black;
+    }
+    .sidenav a:hover{
+        color: white;
+    }
+    .sidebar.closebtn{
+        transition: 0.5s ease;
+    }
+    .sidenav{
+        height: 100%;
+        width: 0;
+        position:fixed;
+        z-index:10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top:60px;
+        transition: 0.5s;
+        background-position: 30% 70%;
+        
+    }
+</style>
+<script>
+  function openNav(){
+      document.getElementById("mysidenav").style.width="100%";
+      document.getElementById("mysidenav").style.backgroundImage="url('https://source.unsplash.com/random/4500x5500?all-white')";
+      document.getElementById("mysidenav").style.backgroundSize="cover";
+      document.getElementById("mysidenav").style.opacity="1";
+      
+      
+  }
+  function closeNav(){
+      document.getElementById("mysidenav").style.width="0";
+      
+      
+  }
+</script>
+
+
+
+
+
+
+
 
 <div class="whitespace" >
     
@@ -206,6 +317,76 @@ A pure focus on the luxury lifestyle space and a <i style="color: hotpink">uniqu
 
 <style>
     @media (width >= 500px){
+      video{
+        width: 45vw;
+        height:50vh;
+        padding-left: 28vw;
+        border-color: inherit;
+      }
+        #close{
+    margin-left: 50vw; margin-top: 10px; font-size: 50px;
+  }
+  .sidebar.closebtn{
+        position: absolute;
+        padding-top: 10vh;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50%;
+    }
+    .closebtn{
+      font-size: 100px;
+      padding-left: 0vw;
+    }
+    .sde{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 20vh;
+      font-family: "Instrument Serif", serif;
+      font-style: italic;
+      width:100vw;
+      
+      
+    }
+    .sde a{
+      text-decoration: none;
+      justify-content: space-between;
+      color: black;
+
+    }
+    .mail{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 30vh;
+      font-family:"Instrument Serif", serif;
+      scale: 0.7 0.5;
+      padding-bottom: 20vh;
+    }
+    .mail a{
+      text-decoration: none;
+      color: black;
+    }
+    .sidenav a:hover{
+        color: white;
+    }
+    .sidebar.closebtn{
+        transition: 0.5s ease;
+    }
+    .sidenav{
+        height: 100%;
+        width: 0;
+        position:fixed;
+        z-index:10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top:60px;
+        transition: 0.5s;
+        background-position: 30% 70%;
+        
+    }
 
 #brand{
         font-family:"Tangerine", cursive ;
@@ -384,6 +565,7 @@ position: absolute;
     font-style: italic;
     
     
+    
 }
 
 
@@ -557,6 +739,13 @@ background-repeat: no-repeat;
 </style>
 <style>
     @media screen and (orientation:portrait){
+      video {
+  width: 80vw;
+  height: 20vh;
+  padding-left: 10vw;
+  border-color: inherit;
+  margin-top:-20vh;
+}
       
       #brand{
         font-family:"Instrument Serif", cursive ;
@@ -856,4 +1045,3 @@ revealTexts.forEach(text => {
 });
 
 </script>
-

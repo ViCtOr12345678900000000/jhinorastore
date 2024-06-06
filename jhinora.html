@@ -32,31 +32,86 @@
   <div id="mysidenav" class="sidenav">
     <div id="close" class="closebtn" onclick="closeNav()">&times;</a><br/></div>
     
+    <div class=" video">
+      <video controls loop>
+  <source src= "3245641-uhd_3840_2160_25fps.mp4" type="video/mp4">
+  <source src="your_video.webm" type="video/webm">
+
+</video>
+
+    </div>
+
+   <div class="sde">
+    <a href="">Work</a>
+    <a href="">Service</a>
+    <a href="">Contact</a>
+   </div>
+   <div class="mail">
+     <a href="mailto:vardevictor78@gmail.com">VARDEVICTOR78@GMAIL.COM</a>
+   </div>
 </div>
 <span onclick="openNav()" style="font-size: 50px;">&equiv;</span>
 <p><h1 id="header-name1">JHINORA STUDIOS</h1></p>
 </div>
+
 <style>
+  video{
+  width:30vw;
+  height:20vh;
+  padding-top: 20vh;
+}
   #close{
     margin-left: 50vw; margin-top: 10px; font-size: 30px;
   }
   .sidebar.closebtn{
         position: absolute;
+        padding-top: 10vh;
         top: 0;
         right: 25px;
         font-size: 36px;
         margin-left: 50%;
     }
+    .closebtn{
+      font-size: 70px;
+      padding-left: 50vw;
+    }
+    .sde{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 20vh;
+      font-family: "Instrument Serif", serif;
+      font-style: italic;
+      width:100vw;
+    }
+    .sde a{
+      text-decoration: none;
+      justify-content: space-between;
+      color: black;
+
+    }
+    .mail{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 30vh;
+      font-family:"Instrument Serif", serif;
+      scale: 0.7 0.5;
+    }
+    .mail a{
+      text-decoration: none;
+      color: black;
+    }
     .sidenav a {
-        padding :32px 32px 32px 32px;
+        padding :2px 2px 3px 3px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 35px;
         color: #818181;
         display: block;
         transition: 0.3s;
     }
     .sidenav a:hover{
-        color: white;
+        color: pink;
     }
     .sidebar.closebtn{
         transition: 0.5s ease;
@@ -65,31 +120,33 @@
         height: 100%;
         width: 0;
         position:fixed;
-        z-index:6;
+        z-index:10;
         top: 0;
         left: 0;
         background-color: #111;
         overflow-x: hidden;
         padding-top:60px;
         transition: 0.5s;
-        
+        background-position: 30% 70%;
+
     }
 </style>
 <script>
   function openNav(){
       document.getElementById("mysidenav").style.width="100%";
-      document.getElementById("mysidenav").style.backgroundImage="url('https://source.unsplash.com/random/3500x3500?building-art')";
-      document.getElementById("mysidenav").style.
-      document.getElementById("mysidenav").style.opacity="0.99";
-      document.getElementById("main").style.marginLeft="250px";
-      
+      document.getElementById("mysidenav").style.backgroundColor="white";
+      document.getElementById("mysidenav").style.backgroundSize="cover";
+      document.getElementById("mysidenav").style.opacity="1";
+
+
   }
   function closeNav(){
       document.getElementById("mysidenav").style.width="0";
-      document.getElementById("main").style.marginLeft="0";
-      
+
+
   }
 </script>
+
 
 
 
@@ -265,7 +322,734 @@ A pure focus on the luxury lifestyle space and a <i style="color: hotpink">uniqu
   </div>
 </div>
 
+<style>
+  @media (width >= 500px){
+    video{
+      width: 0vw;
+      height:0vh;
+      padding-left: 0vw;
+      border-color: inherit;
+    }
+      #close{
+  margin-left: 50vw; margin-top: 10px; font-size: 50px;
+}
+.sidebar.closebtn{
+      position: absolute;
+      padding-top: 10vh;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50%;
+    }
+    .closebtn{
+      font-size: 100px;
+      padding-left: 0vw;
+    }
+    .sde{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 20vh;
+      font-family: "Instrument Serif", serif;
+      font-style: italic;
+      width:100vw;
 
+
+    }
+    .sde a{
+      text-decoration: none;
+      justify-content: space-between;
+      color: black;
+
+    }
+    .mail{
+      text-align: center;
+      font-size: 60px;
+      display: grid;
+      padding-top: 30vh;
+      font-family:"Instrument Serif", serif;
+      scale: 0.7 0.5;
+      padding-bottom: 20vh;
+    }
+    .mail a{
+      text-decoration: none;
+      color: black;
+    }
+    .sidenav a:hover{
+        color: pink;
+    }
+    .sidebar.closebtn{
+        transition: 0.5s ease;
+    }
+    .sidenav{
+        height: 100%;
+        width: 0;
+        position:fixed;
+        z-index:10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top:60px;
+        transition: 0.5s;
+        background-position: 30% 70%;
+    }
+    #brand{
+        font-family:"Tangerine", cursive ;
+        margin-top:20px ;
+        width: 90px;
+        position: absolute;
+        font-size: 30px;
+        padding-left: 10px;
+        color: burlywood;
+        
+      }
+      #brand1{
+        font-family:"Instrument Serif", serif ;
+        margin-top:130px ;
+        width: ;
+        position: absolute;
+        font-size: 30px;
+        padding-left: ;
+        color: burlywood;
+      }
+      #bo{
+        padding-top: 25vh;  font-family:Poiret One, sans-serif ; margin-left: 35vw; font-size: 50px;
+      }
+      #lst-sm-cnt{
+        width: 20vw;
+        height: 40vh;
+      }
+      .cpyright{
+        padding-left: 43vw;
+        padding-top: 5vh;
+      }
+      .links{
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+        width: 50vw;
+        padding-left: 25vw;
+        font-family: "Instrument Serif", serif;
+        
+      }
+      .final-container{
+        height: 180vh;
+        width: 100vw;
+        background-color: white;
+        margin-top: 330vh;
+        position: absolute;
+      }
+      #final-text{
+        margin-left: 85vw;
+        padding-top: 5vh;
+        font-family:"Tangerine", cursive ;
+        font-size: 30px;
+      }
+      .desk{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        padding-left: 10vw;
+        padding-top: 30px;
+      }
+      .btm-cont{
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        height: 120vh;
+        margin-top: 130vh;
+        position: absolute;
+      }
+      .btm-cont1{
+        width: 50vw;
+        height: 100vh;
+      }
+   #btmimg1{
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-size: contain;
+    position: relative;
+   }
+#btm-cont2{
+  width: 50vw;
+  height: 70vh;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  padding-top: 30vh;
+  margin-left: 50vw;
+  font-family: "Instrument Serif", serif;
+}
+.btm-cont2, a:after{
+  background-color: inherit;
+  
+}
+      #w02{
+  font-size: 40px; top: 0px; left: 45vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#w03{
+  font-size: 40px; top: 0px; left: 45vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word1{
+  font-size: 60px; top: 40px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word2{
+  font-size: 60px; top: 70px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word3{
+  font-size: 60px; top: 100px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+      #learnmore{
+        color: lightpink; position: absolute; text-decoration: none; margin-left: -6vw;
+      }
+      .last-con{
+        background-color: white;
+        color: white;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+      }
+      #lasttext{
+        padding-top: 30vh;
+        width: 50vw;
+        padding-left: 23vw;
+        font-family: "Tangerine", cursive;
+        font-size: 30px;
+        color: black;
+      }
+#last-text{
+  font-family:"Poiret One", sans-serif ;
+}
+        #navbar1{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 20vh;
+}
+.general{
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  top: 32vh;
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+  z-index: 0
+  /* Adjust height as needed */
+}
+.sticky1 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index:2;
+  height: 50vh;
+  /* Adjust height as needed */
+}
+.sticky2 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+
+  /* Adjust height as needed */
+}
+
+#header-name2{
+position: absolute;
+    margin-left: 12vw;
+    transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+    font-family: "Instrument Serif", serif;
+    color: black;
+    font-weight: 100;
+    scale: 1.5;
+    font-style: italic;
+    
+    
+    
+}
+    #navbar{
+        display: flex;
+        background-color: white;
+        height: 15vh;
+        z-index: 2;
+        width:100vw;
+    }
+    .midbox{
+      width:100vw;
+      height:230vh;
+      background-color:white;  
+      margin-top: 0vh;
+      text-align:  center; 
+      font-family:  "Poiret One", sans-serif;
+    }
+    #service{
+      padding-top: 100vh;
+      font-size: 30px;
+      font-family:"Instrument Serif", serif;
+      
+    }
+    .inside{
+      display: flex;
+      flex-wrap: wrap;
+      text-align:  left; 
+      padding-inline: px;
+      justify-content: space-around;
+      font-size:20px ;
+      padding-top: 5vh;
+      margin-left: -20px;
+      font-family: "Cormorant Garamond", serif;
+      
+    }
+    a:after {
+  content: "";
+  display: block;
+  width: 100%;  /* Adjust width as needed */
+  height: 1px;
+  background-color: black; /* Change color as desired */
+  position: absolute; /* Overlap the link */
+  bottom: -2px; /* Adjust spacing as needed */
+  left: 0; 
+}
+    
+    span{
+        margin-left: 95vw;
+    }
+    .whitespace{
+        background-color: white;
+        text-align: center;
+        align-content: center;   
+        height: 50vh; 
+        padding-top: 10vh;
+    }
+    #box{
+      display: flex;
+      flex-wrap:wrap;
+      width:100vw;
+      height:150vh;
+    }
+    #box1{
+width:50vw;
+height:100vh;
+background-image: url("https://source.unsplash.com/random/2500x2500?laptop");
+background-size: cover;
+background-repeat: no-repeat;  
+    }
+  
+      #box2 {
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    padding-top: 30vh;
+    font-size: 20px;
+    text-align:  center ;
+    font-family:"Instrument Serif", serif;
+  }
+    #box3{
+     width: 50vw;
+     height: 70vh;
+     background-color: white;
+     padding-top: 30vh;
+     font-size: 20px;
+     text-align: center;
+     font-family: "Instrument Serif", serif;
+   }
+   #box4 {
+  width: 50vw;
+  height: 100vh;
+  background-image: url("https://static.wixstatic.com/media/b2ee2c_863ed37afc5c4f7f88b23e810dc1c5b3~mv2.png/v1/fill/w_780,h_812,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202024-02-20%20at%2013_03_11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    #whitespace1{
+        font-family: "Instrument Serif", serif;
+        font-size: 30px;
+    }
+    #whitespace2{
+        font-size: 20px;
+        font-family:"Pacifico", cursive;
+    }
+    #first-container{
+        height: 100vh;
+        width:auto;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    img{
+        height: 100vh;
+        width: 50vw;
+        
+        object-fit: cover;
+        
+    }
+    #smallcontainer1{
+        
+        width: 50%;
+       
+    }
+    #smallcontainer2{
+        
+        width: 50%;
+        
+        
+    }
+    #header-name{
+        position: absolute;
+        margin-left: 40vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: white;
+        font-weight: 100;
+        scale: 2 2 ;
+        margin-top: 10vh;
+    }
+    #header-name1{
+        position: absolute;
+        margin-left: 12vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: black;
+        font-weight: 100;
+        scale: 1.5;
+        
+    }
+    #sub-name{
+        position: absolute;
+        margin-top: 45vh;
+        color: white;
+        font-size: 30px;
+        margin-left: 30vw;
+        font-weight: 100;
+        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    }
+    #sub-name1{
+        position: absolute;
+        margin-top: 55vh;
+        color: white;
+        font-size: 70px;
+        margin-left: 30vw;
+        font-weight: 400;
+        font-family: "Tangerine", cursive;
+    }
+}
+</style>
+<style>
+    @media screen and (orientation:portrait){
+      .sticky {
+  position: sticky;
+  top: 9vh;
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+  z-index: 0
+  /* Adjust height as needed */
+}
+
+      #close{
+
+margin-left: 10vw; margin-top: 10px; font-size: 50px;padding-left: 80vw;
+  }
+  .sidebar.closebtn{
+        position: absolute;
+        padding-top: 10vh;
+        right: 25px;
+        font-size: 36px;
+        margin-left: -50%;
+
+    }
+    .closebtn{
+      font-size: 100px;
+      padding-left: 0vw;
+      width:100vw;
+    }
+      video {
+  width: 80vw;
+  height: 20vh;
+  padding-left: 10vw;
+  border-color: inherit;
+  margin-top:-20vh;
+}
+#brand{
+        font-family:"Instrument Serif", cursive ;
+        font-style: italic;
+        margin-top:20px ;
+        width: 90px;
+        position: absolute;
+        font-size: 30px;
+        padding-left: 10vw;
+        color: burlywood;
+        
+      }
+      #brand1{
+        font-family:"Instrument Serif", serif ;
+        margin-top:10vh ;
+        width: ;
+        position: absolute;
+        font-size: 60px;
+        padding-left: 10vw;
+        color: burlywood;
+      }
+      #bo{
+        padding-top: 10vh; 
+        font-size: 150px;
+        margin-left:20vw;
+      }
+      .links{
+
+        margin-left: -5vw;
+        font-size: 30px;
+      }
+      #lst-sm-cnt{
+        width: 80vw;
+      }
+      .cpyright{
+        padding-left: 44vw;
+        padding-bottom: 10vh;
+      }
+      .desk{
+        display: grid;
+        
+        width: 80vw;
+        padding-left: 10vw;
+        padding-top: 30px;
+      }
+      .final-container{
+        height: 230vh;
+        width: fit-content;
+        background-color: white;
+        margin-top: 220vh;
+        position: absolute;
+  
+      }
+      .links{
+        padding-left: 27vw;
+      }
+      
+      .scroll-container {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  margin-top: 150vh;
+  position: absolute;
+  padding-bottom: 20vh;
+}
+.scroll-images {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+  .btm-cont{
+    display: block;
+    margin-top: 60vh;
+  }
+  #btmimg1{
+    width: 100vw;
+    height: 50vh;
+  }
+  #btm-cont2{
+    width: 100vw;
+    height: 30vh;
+    right: 0;
+    margin-top: -50vh;
+    padding-top: 20vh;
+    font-family: "Instrument Serif", serif;
+    
+  }
+  
+#w02{
+  font-size: 40px; top: 250px; left: 50vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#w03{
+  font-size: 40px; top: 450px; left: 50vw; position: absolute; color: aliceblue; z-index: 1;
+}
+      #word1{
+  font-size: 60px; top: 170px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word2{
+  font-size: 60px; top: 350px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+#word3{
+  font-size: 60px; top: 550px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
+}
+      #learnmore{
+        color: lightpink; position: absolute; text-decoration: none; margin-left: -15vw;
+      }
+      .last-con{
+        background-color: white;
+        color: black;
+        text-align: center;
+        width: 100vw;
+        height: 70vh;
+        position: absolute;
+      }
+      #lasttext{
+        padding-top: 15vh;
+        width: 50vw;
+        padding-left: 25vw;
+        font-family: "Tangerine", cursive;
+        font-size: 40px;
+      }
+#last-text{
+  font-family:"Poiret One", sans-serif ;
+}
+        #navbar{
+        display: flex;
+        background-color: white;
+        height: 5vh;
+        z-index: 2;
+        width:100vw;
+
+    }
+    #navbar1{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 5vh;
+}
+    .midbox{
+      width:100vw;
+      height:50vh;
+      background-color:white;  
+      margin-top: 130vh;
+      text-align:  center; 
+    }
+        #service {
+      padding-top: 10vh;
+      font-size: 40px;
+      font-family: "Instrument Serif", serif;
+       }
+      .inside {
+     display: flex;
+font-size: 20px;
+justify-content: space-between;
+width: 50vw;
+padding-left: 25vw;
+     font-family: "Cormorant Garamond", serif;
+   }
+   a:after {
+  content: "";
+  display: block;
+  width: 100%;  /* Adjust width as needed */
+  height: 1px;
+  background-color: black; /* Change color as desired */
+  position: absolute; /* Overlap the link */
+  bottom: -2px; /* Adjust spacing as needed */
+  left: 0; 
+}
+   #downlink{
+     font-family : "Poiret One", sans-serif;
+        color: black;
+        scale: 1.5;
+   }
+    .whitespace{
+        background-color: white;
+        text-align: center;
+        height: 20vh; 
+        color: black;  
+        align-content: center;
+        padding-top: 10vh;
+        
+    }
+    
+    
+    span{
+        margin-left: 95vw;
+    }
+        #sub-name{
+        position: absolute;
+        margin-top: 75vh;
+        color: white;
+        font-size: 40px;
+        margin-left: 27vw;
+        font-weight: 100;
+        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    }
+    #sub-name1{
+        position: absolute;
+        margin-top:80vh;
+        color: white;
+        font-size: 70px;
+        margin-left: 30vw;
+        font-weight: 400;
+        font-family: "Tangerine", cursive;
+    }
+    
+    #header-name{
+        position: absolute;
+        margin-left: 40vw;
+        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
+        font-family: "Poiret One", sans-serif;
+        color: white;
+        font-weight: 00;
+        font-family: "Aboreto", system-ui;
+        scale: 2 2 ;
+        margin-top: 5vh;
+    }
+    
+    #box{
+      display: block;
+      flex-wrap:wrap;
+      width:100vw;
+      height:50vh;
+    }
+    #box1{
+width:100vw;
+height:50vh;
+    }
+      #box2 {
+    width: 100vw;
+height: 30vh;
+background-color: white;
+padding-top: 10vh;
+font-size: 60px;
+text-align: center;   
+font-family:"Instrument Serif", serif; 
+  }
+     #box3{
+    width: 100vw;
+    height: 30vh;
+    background-color: beige;
+    padding-top: 10vh;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+  }
+      #box4{
+    width: 100vw;
+    height: 50vh;
+    background-color: orangered;
+  }
+    }
+</style>
+<!--  this is for revealing text -->   
+<style>
+.reveal-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.reveal-text.in-view {
+  opacity: 1;
+}
+</style>
+<script>
+  const revealTexts = document.querySelectorAll('.reveal-text');
+revealTexts.forEach(text => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        text.classList.add('in-view');
+      } else {
+        text.classList.remove('in-view');
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '0px 0px 100px 0px', // Adjust margin for reveal distance
+    threshold: parseFloat(text.dataset.threshold) || 0.1 // Use data-threshold attribute or default
+  });
+  observer.observe(text);
+});
+</script>
 
 
 
@@ -434,7 +1218,7 @@ A pure focus on the luxury lifestyle space and a <i style="color: hotpink">uniqu
         margin-left: ;
         width: 100vw;
         margin-right: ;
-        margin-top: 450vh;
+        margin-top: 455vh;
         position:absolute;
         
         
@@ -519,657 +1303,3 @@ A pure focus on the luxury lifestyle space and a <i style="color: hotpink">uniqu
 
 
 
-<style>
-    @media (width >= 500px){
-
-#brand{
-        font-family:"Tangerine", cursive ;
-        margin-top:20px ;
-        width: 90px;
-        position: absolute;
-        font-size: 30px;
-        padding-left: 10px;
-        color: burlywood;
-        
-      }
-      #brand1{
-        font-family:"Instrument Serif", serif ;
-        margin-top:130px ;
-        width: ;
-        position: absolute;
-        font-size: 30px;
-        padding-left: ;
-        color: burlywood;
-      }
-      #bo{
-        padding-top: 25vh;  font-family:Poiret One, sans-serif ; margin-left: 35vw; font-size: 50px;
-      }
-      #lst-sm-cnt{
-        width: 20vw;
-        height: 40vh;
-      }
-      .cpyright{
-        padding-left: 43vw;
-        padding-top: 5vh;
-      }
-      .links{
-        display: flex;
-        font-size: 20px;
-        justify-content: space-between;
-        width: 50vw;
-        padding-left: 25vw;
-        font-family: "Instrument Serif", serif;
-        
-
-      }
-      .final-container{
-        height: 180vh;
-        width: 100vw;
-        background-color: white;
-        margin-top: 330vh;
-        position: absolute;
-      }
-      #final-text{
-        margin-left: 85vw;
-        padding-top: 5vh;
-        font-family:"Tangerine", cursive ;
-        font-size: 30px;
-      }
-      .desk{
-        display: flex;
-        justify-content: space-between;
-        width: 80vw;
-        padding-left: 10vw;
-        padding-top: 30px;
-      }
-
-
-
-      .btm-cont{
-        width: 100vw;
-        display: flex;
-        flex-wrap: nowrap;
-        height: 120vh;
-        margin-top: 130vh;
-        position: absolute;
-      }
-      .btm-cont1{
-        width: 50vw;
-        height: 100vh;
-      }
-   #btmimg1{
-    object-fit: cover;
-    object-position: 50% 50%;
-    background-size: contain;
-    position: relative;
-   }
-#btm-cont2{
-  width: 50vw;
-  height: 70vh;
-  background-color: white;
-  position: absolute;
-  text-align: center;
-  padding-top: 30vh;
-  margin-left: 50vw;
-  font-family: "Instrument Serif", serif;
-}
-.btm-cont2, a:after{
-  background-color: inherit;
-  
-}
-      #w02{
-  font-size: 40px; top: 0px; left: 45vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#w03{
-  font-size: 40px; top: 0px; left: 45vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#word1{
-  font-size: 60px; top: 40px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#word2{
-  font-size: 60px; top: 70px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#word3{
-  font-size: 60px; top: 100px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-      #learnmore{
-        color: lightpink; position: absolute; text-decoration: none; margin-left: -6vw;
-      }
-      .last-con{
-        background-color: white;
-        color: white;
-        text-align: center;
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-      }
-      #lasttext{
-        padding-top: 30vh;
-        width: 50vw;
-        padding-left: 23vw;
-        font-family: "Tangerine", cursive;
-        font-size: 30px;
-        color: black;
-      }
-#last-text{
-  font-family:"Poiret One", sans-serif ;
-}
-
-        #navbar1{
-    display: flex;
-    background-color: white;
-    color: black;
-    height: 20vh;
-}
-.general{
-  position: relative;
-}
-.sticky {
-  position: sticky;
-  top: 100px;
-  width: 100%;
-  height: 50vh;
-  margin-top: 70px;
-  /* Adjust height as needed */
-}
-.sticky1 {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  height: 50vh;
-  /* Adjust height as needed */
-}
-.sticky2 {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 50vh;
-  /* Adjust height as needed */
-}
-    
-#header-name2{
-position: absolute;
-    margin-left: 12vw;
-    transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
-    font-family: "Instrument Serif", serif;
-    color: black;
-    font-weight: 100;
-    scale: 1.5;
-    font-style: italic;
-    
-    
-    
-}
-
-
-    #navbar{
-        display: flex;
-        background-color: white;
-        height: 15vh;
-        z-index: 1;
-        width:100vw;
-    }
-    .midbox{
-      width:100vw;
-      height:230vh;
-      background-color:white;  
-      margin-top: 0vh;
-      text-align:  center; 
-      font-family:  "Poiret One", sans-serif;
-    }
-    #service{
-      padding-top: 100vh;
-      font-size: 30px;
-      font-family:"Instrument Serif", serif;
-      
-    }
-    .inside{
-      display: flex;
-      flex-wrap: wrap;
-      text-align:  left; 
-      padding-inline: px;
-      justify-content: space-around;
-      font-size:20px ;
-      padding-top: 5vh;
-      margin-left: -20px;
-      font-family: "Cormorant Garamond", serif;
-      
-    }
-    a:after {
-  content: "";
-  display: block;
-  width: 100%;  /* Adjust width as needed */
-  height: 1px;
-  background-color: black; /* Change color as desired */
-  position: absolute; /* Overlap the link */
-  bottom: -2px; /* Adjust spacing as needed */
-  left: 0; 
-}
-
-    
-    span{
-        margin-left: 95vw;
-    }
-    .whitespace{
-        background-color: white;
-        text-align: center;
-        align-content: center;   
-        height: 50vh; 
-        padding-top: 10vh;
-    }
-    #box{
-      display: flex;
-      flex-wrap:wrap;
-      width:100vw;
-      height:150vh;
-    }
-    #box1{
-width:50vw;
-height:100vh;
-background-image: url("https://source.unsplash.com/random/2500x2500?laptop");
-background-size: cover;
-background-repeat: no-repeat;  
-
-    }
-  
-      #box2 {
-    width: 50vw;
-    height: 70vh;
-    background-color: white;
-    padding-top: 30vh;
-    font-size: 20px;
-    text-align:  center ;
-    font-family:"Instrument Serif", serif;
-  }
-    #box3{
-     width: 50vw;
-     height: 70vh;
-     background-color: white;
-     padding-top: 30vh;
-     font-size: 20px;
-     text-align: center;
-     font-family: "Instrument Serif", serif;
-   }
-   #box4 {
-  width: 50vw;
-  height: 100vh;
-  background-image: url("https://static.wixstatic.com/media/b2ee2c_863ed37afc5c4f7f88b23e810dc1c5b3~mv2.png/v1/fill/w_780,h_812,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202024-02-20%20at%2013_03_11.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-    #whitespace1{
-        font-family: "Instrument Serif", serif;
-        font-size: 30px;
-    }
-    #whitespace2{
-        font-size: 20px;
-        font-family:"Pacifico", cursive;
-    }
-    #first-container{
-        height: 100vh;
-        width:auto;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    img{
-        height: 100vh;
-        width: 50vw;
-        
-        object-fit: cover;
-        
-    }
-    #smallcontainer1{
-        
-        width: 50%;
-       
-    }
-    #smallcontainer2{
-        
-        width: 50%;
-        
-        
-    }
-    #header-name{
-        position: absolute;
-        margin-left: 40vw;
-        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
-        font-family: "Poiret One", sans-serif;
-        color: white;
-        font-weight: 100;
-        scale: 2 2 ;
-        margin-top: 10vh;
-    }
-    #header-name1{
-        position: absolute;
-        margin-left: 12vw;
-        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
-        font-family: "Poiret One", sans-serif;
-        color: black;
-        font-weight: 100;
-        scale: 1.5;
-        
-    }
-    #sub-name{
-        position: absolute;
-        margin-top: 45vh;
-        color: white;
-        font-size: 30px;
-        margin-left: 30vw;
-        font-weight: 100;
-        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
-    }
-    #sub-name1{
-        position: absolute;
-        margin-top: 55vh;
-        color: white;
-        font-size: 70px;
-        margin-left: 30vw;
-        font-weight: 400;
-        font-family: "Tangerine", cursive;
-    }
-}
-</style>
-<style>
-    @media screen and (orientation:portrait){
-      
-      #brand{
-        font-family:"Instrument Serif", cursive ;
-        font-style: italic;
-        margin-top:20px ;
-        width: 90px;
-        position: absolute;
-        font-size: 30px;
-        padding-left: 10vw;
-        color: burlywood;
-        
-      }
-      #brand1{
-        font-family:"Instrument Serif", serif ;
-        margin-top:10vh ;
-        width: ;
-        position: absolute;
-        font-size: 60px;
-        padding-left: ;
-        color: burlywood;
-      }
-      #bo{
-        padding-top: 10vh; 
-        font-size: 150px;
-        margin-left:20vw;
-        
-      }
-      .links{
-      
-        margin-left: -5vw;
-        font-size: 30px;
-      }
-      #lst-sm-cnt{
-        width: 80vw;
-      }
-      .cpyright{
-        padding-left: 44vw;
-        padding-bottom: 10vh;
-      }
-      .desk{
-        display: grid;
-        
-        width: 80vw;
-        padding-left: 10vw;
-        padding-top: 30px;
-      }
-      .final-container{
-        height: 230vh;
-        width: fit-content;
-        background-color: white;
-        margin-top: 220vh;
-        position: absolute;
-  
-      }
-      .links{
-        padding-left: 27vw;
-      }
-      
-      .scroll-container {
-  width: 100vw;
-  height: 50vh;
-  overflow: hidden;
-  margin-top: 150vh;
-  position: absolute;
-  padding-bottom: 20vh;
-}
-.scroll-images {
-  display: flex;
-  animation: scroll 10s linear infinite;
-}
-  .btm-cont{
-    display: block;
-    margin-top: 60vh;
-  }
-  #btmimg1{
-    width: 100vw;
-    height: 50vh;
-  }
-  #btm-cont2{
-    width: 100vw;
-    height: 30vh;
-    right: 0;
-    margin-top: -50vh;
-    padding-top: 20vh;
-    font-family: "Instrument Serif", serif;
-    
-  }
-  
-
-#w02{
-  font-size: 40px; top: 250px; left: 50vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#w03{
-  font-size: 40px; top: 450px; left: 50vw; position: absolute; color: aliceblue; z-index: 1;
-}
-
-      #word1{
-  font-size: 60px; top: 170px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#word2{
-  font-size: 60px; top: 350px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-#word3{
-  font-size: 60px; top: 550px; left: 35vw; position: absolute; color: aliceblue; z-index: 1;
-}
-
-      #learnmore{
-        color: lightpink; position: absolute; text-decoration: none; margin-left: -15vw;
-      }
-      .last-con{
-        background-color: white;
-        color: black;
-        text-align: center;
-        width: 100vw;
-        height: 70vh;
-        position: absolute;
-      }
-      #lasttext{
-        padding-top: 15vh;
-        width: 50vw;
-        padding-left: 25vw;
-        font-family: "Tangerine", cursive;
-        font-size: 40px;
-      }
-#last-text{
-  font-family:"Poiret One", sans-serif ;
-}
-        #navbar{
-        display: flex;
-        background-color: white;
-        height: 5vh;
-        z-index: 1;
-        width:100vw;
-        
-    }
-    #navbar1{
-    display: flex;
-    background-color: white;
-    color: black;
-    height: 5vh;
-}
-    .midbox{
-      width:100vw;
-      height:50vh;
-      background-color:white;  
-      margin-top: 130vh;
-      text-align:  center; 
-    }
-        #service {
-      padding-top: 10vh;
-      font-size: 40px;
-      font-family: "Instrument Serif", serif;
-      
-
-    }
-      .inside {
-     display: flex;
-font-size: 20px;
-justify-content: space-between;
-width: 50vw;
-padding-left: 25vw;
-     font-family: "Cormorant Garamond", serif;
-
-
-   }
-   a:after {
-  content: "";
-  display: block;
-  width: 100%;  /* Adjust width as needed */
-  height: 1px;
-  background-color: black; /* Change color as desired */
-  position: absolute; /* Overlap the link */
-  bottom: -2px; /* Adjust spacing as needed */
-  left: 0; 
-}
-
-
-   #downlink{
-     font-family : "Poiret One", sans-serif;
-        color: black;
-        scale: 1.5;
-   }
-    .whitespace{
-        background-color: white;
-        text-align: center;
-        height: 20vh; 
-        color: black;  
-        align-content: center;
-        padding-top: 10vh;
-        
-    }
-    
-    
-    span{
-        margin-left: 95vw;
-    }
-        #sub-name{
-        position: absolute;
-        margin-top: 75vh;
-        color: white;
-        font-size: 40px;
-        margin-left: 27vw;
-        font-weight: 100;
-        font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
-    }
-    #sub-name1{
-        position: absolute;
-        margin-top:80vh;
-        color: white;
-        font-size: 70px;
-        margin-left: 30vw;
-        font-weight: 400;
-        font-family: "Tangerine", cursive;
-    }
-    
-    #header-name{
-        position: absolute;
-        margin-left: 40vw;
-        transform: translate3d(0px, 0vh, 0px) scale(1.2721, 1.2721);
-        font-family: "Poiret One", sans-serif;
-        color: white;
-        font-weight: 00;
-        font-family: "Aboreto", system-ui;
-        scale: 2 2 ;
-        margin-top: 5vh;
-    }
-    
-    #box{
-      display: block;
-      flex-wrap:wrap;
-      width:100vw;
-      height:50vh;
-    }
-    #box1{
-width:100vw;
-height:50vh;
-
-    }
-      #box2 {
-    width: 100vw;
-height: 30vh;
-background-color: white;
-padding-top: 10vh;
-font-size: 60px;
-text-align: center;   
-font-family:"Instrument Serif", serif; 
-  }
-     #box3{
-    width: 100vw;
-    height: 30vh;
-    background-color: beige;
-    padding-top: 10vh;
-    font-size: 60px;
-    text-align: center;
-    font-family: "Instrument Serif", serif;
-  }
-      #box4{
-    width: 100vw;
-    height: 50vh;
-    background-color: orangered;
-  }
-
-    }
-</style>
-
-
-
-<!--  this is for revealing text -->   
-
-<style>
-.reveal-text {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.reveal-text.in-view {
-  opacity: 1;
-}
-</style>
-<script>
-  const revealTexts = document.querySelectorAll('.reveal-text');
-
-revealTexts.forEach(text => {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        text.classList.add('in-view');
-      } else {
-        text.classList.remove('in-view');
-      }
-    });
-  }, {
-    root: null,
-    rootMargin: '0px 0px 100px 0px', // Adjust margin for reveal distance
-    threshold: parseFloat(text.dataset.threshold) || 0.1 // Use data-threshold attribute or default
-  });
-  observer.observe(text);
-});
-
-</script>
